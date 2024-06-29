@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../assets/avatar.svg';
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaYoutube, FaDribbble, FaTelegram, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
@@ -59,14 +59,14 @@ const Banner = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}
           className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-            <a href='#'>
-              <FaYoutube />
+            <a href='https://t.me/Azimjon2103'>
+              <FaTelegram />
             </a>
-            <a href='#'>
-              <FaGithub />
+            <a href='https://www.facebook.com/profile.php?id=100089639352002&mibextid=ZbWKwL'>
+              <FaFacebook />
             </a>
-            <a href='#'>
-              <FaDribbble />
+            <a href='https://www.instagram.com/aziko21_03'>
+              <FaInstagram />
             </a>
           </ motion.div>
         </div>
