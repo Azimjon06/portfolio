@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/alien-removebg-preview.png';
 
 const Header = () => {
-  return <header className='bg-blue-500 py-8'>
+  return <header className='bg-text-content-500 py-8'>
     <div className='container max-auto'>
       <div className='flex justify-between items-center'>
         <a href='#'>
